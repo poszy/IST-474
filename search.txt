@@ -1,0 +1,339 @@
+This file was created so that one, can google the questions and find this repo.
+Yall welcome.
+
+
+We will use Oracle Express Edition (XE) as the primary database management system for this course. OracleXE is a limited, but functional version of Oracles flagship database management system. See the documentation linked from information in Blackboard.
+0. Install Oracle Database Express Edition
+
+    installation Guide for Microsoft Windows
+        Installation Guide for Linux x86_64
+
+1 Exploring the Oracle Database XE User Interface
+1.1 System Menu Commands
+
+To access the major features of Oracle Database XE, use the system menu as follows to get to the available specific commands:
+
+    On Windows, from the Start menu, select Programs (or All Programs), then Oracle Database 11g Express Edition.
+
+    On Linux, click the Application menu (on Gnome) or the K menu (on KDE), then point to Oracle Database 11g Express Edition.
+
+Then select from the submenu items:
+
+    Get Help: Displays the following selections:
+
+        Go To Online Forum: Displays the online forum for discussions about Oracle Database XE.
+
+        Read Documentation: Displays the Oracle Database XE documentation library on the Internet.
+
+        Register For Online Forum: Allows you to register for the Oracle Database XE online forum.
+
+    Backup Database: In NOARCHIVELOG mode (the default), shuts down the database, backs it up, and then restarts it. In ARCHIVELOG mode, performs an online backup of the database. For more information on backups, see Oracle Database Express Edition 2 Day DBA.
+
+    Restore Database: Shuts down and then restores the database to the most recent backup. For more information on restoring a database, see Oracle Database Express Edition 2 Day DBA.
+
+    Run SQL Command Line: Starts the SQL Command Line utility for Oracle Database XE. To connect to the database, issue the connect command in the following format at the SQL prompt:
+
+    connect username/password
+
+    where username is the user name, such as system or another user account name, and password is the password that was assigned when Oracle Database XE was installed or when that user was created. To get help, you can enter the command help at the SQL prompt after you have connected to the database.
+
+    Start Database: Starts Oracle Database XE if it is currently stopped. By default, the database is started for you after installation and every time your computer is restarted. However, to reduce the overall performance load on the system, you can manually stop the database, and then manually restart it later.
+
+    (If the database is not currently stopped, an informational message is displayed that the database is already started.)
+
+    Note:
+        To start or stop the database: On Windows, you must be logged in as the user who installed Oracle Database XE or as a Windows administrator; on Linux, you must be logged in as the user who installed Oracle Database XE or as a user who is a member of the   dba  user group (typically the user   oracle).
+
+    Stop Database: Stops Oracle Database XE if it is currently started.
+
+    Get Started: Displays the Oracle Database XE Home Page in your default browser. See Section 1.2, "Database Home Page".
+
+1.2 Database Home Page
+
+The Database home page is a web browser-based interface for performing various database administration operations, including the following:
+
+    Monitoring database storage
+
+    Monitoring database sessions
+
+    Viewing database initialization parameters
+
+    Getting started with Oracle Application Express
+
+To access the database home page, follow these steps:
+
+    Navigate the system menu as follows:
+
+        On Windows, from the Start menu, select Programs (or All Programs), then Oracle Database 11g Express Edition, and then Get Started.
+
+        On Linux, click the Application menu (on Gnome) or the K menu (on KDE), then point to Oracle Database 11g Express Edition, and then Get Started.
+
+    The Oracle Database XE home page appears:We will use Oracle Express Edition (XE) as the primary database management system for this course. OracleXE is a limited, but functional version of Oracles flagship database management system. See the documentation linked from information in Blackboard.
+    0. Install Oracle Database Express Edition
+
+    installation Guide for Microsoft Windows
+        Installation Guide for Linux x86_64
+
+1 Exploring the Oracle Database XE User Interface
+1.1 System Menu Commands
+
+To access the major features of Oracle Database XE, use the system menu as follows to get to the available specific commands:
+
+    On Windows, from the Start menu, select Programs (or All Programs), then Oracle Database 11g Express Edition.
+
+    On Linux, click the Application menu (on Gnome) or the K menu (on KDE), then point to Oracle Database 11g Express Edition.
+
+Then select from the submenu items:
+
+    Get Help: Displays the following selections:
+
+        Go To Online Forum: Displays the online forum for discussions about Oracle Database XE.
+
+        Read Documentation: Displays the Oracle Database XE documentation library on the Internet.
+
+        Register For Online Forum: Allows you to register for the Oracle Database XE online forum.
+
+    Backup Database: In NOARCHIVELOG mode (the default), shuts down the database, backs it up, and then restarts it. In ARCHIVELOG mode, performs an online backup of the database. For more information on backups, see Oracle Database Express Edition 2 Day DBA.
+
+    Restore Database: Shuts down and then restores the database to the most recent backup. For more information on restoring a database, see Oracle Database Express Edition 2 Day DBA.
+
+    Run SQL Command Line: Starts the SQL Command Line utility for Oracle Database XE. To connect to the database, issue the connect command in the following format at the SQL prompt:
+
+    connect username/password
+
+    where username is the user name, such as system or another user account name, and password is the password that was assigned when Oracle Database XE was installed or when that user was created. To get help, you can enter the command help at the SQL prompt after you have connected to the database.
+
+    Start Database: Starts Oracle Database XE if it is currently stopped. By default, the database is started for you after installation and every time your computer is restarted. However, to reduce the overall performance load on the system, you can manually stop the database, and then manually restart it later.
+
+    (If the database is not currently stopped, an informational message is displayed that the database is already started.)
+
+    Note:
+        To start or stop the database: On Windows, you must be logged in as the user who installed Oracle Database XE or as a Windows administrator; on Linux, you must be logged in as the user who installed Oracle Database XE or as a user who is a member of the   dba  user group (typically the user   oracle).
+
+    Stop Database: Stops Oracle Database XE if it is currently started.
+
+    Get Started: Displays the Oracle Database XE Home Page in your default browser. See Section 1.2, "Database Home Page".
+
+1.2 Database Home Page
+
+The Database home page is a web browser-based interface for performing various database administration operations, including the following:
+
+    Monitoring database storage
+
+    Monitoring database sessions
+
+    Viewing database initialization parameters
+
+    Getting started with Oracle Application Express
+
+To access the database home page, follow these steps:
+
+    Navigate the system menu as follows:
+
+        On Windows, from the Start menu, select Programs (or All Programs), then Oracle Database 11g Express Edition, and then Get Started.
+
+        On Linux, click the Application menu (on Gnome) or the K menu (on KDE), then point to Oracle Database 11g Express Edition, and then Get Started.
+
+    The Oracle Database XE home page appears:
+
+
+1.2 Database Home Page
+
+The Database home page is a web browser-based interface for performing various database administration operations, including the following:
+
+    Monitoring database storage
+
+    Monitoring database sessions
+
+    Viewing database initialization parameters
+
+    Getting started with Oracle Application Express
+
+To access the database home page, follow these steps:
+
+    Navigate the system menu as follows:
+
+        On Windows, from the Start menu, select Programs (or All Programs), then Oracle Database 11g Express Edition, and then Get Started.
+
+        On Linux, click the Application menu (on Gnome) or the K menu (on KDE), then point to Oracle Database 11g Express Edition, and then Get Started.
+
+    The Oracle Database XE home page appears:
+
+    For detailed information about these database-level operations, see Oracle Database Express Edition 2 Day DBA.
+
+    Click the button or tab for any category you are interested in (for example, Storage).
+
+    If you are prompted for login information, specify:
+
+        Username: Enter system for the user name.
+
+        Password: Enter the password that was specified when Oracle Database XE was installed.
+
+2 Unlocking the Sample User Account
+
+To view any objects owned by the supplied sample database user named HR, or to create the form-based application as described in Section 6, "Creating an Application Using Application Express", you must first unlock the HR sample account.
+
+Oracle Database XE comes with a sample database user named HR. This user owns several database tables in a sample schema for a fictional Human Resources department. However, for security reasons, this user's account is locked. You need to unlock this account before you can view the HR objects or build any applications that use these objects. You can use either of the following approaches to unlock the account:
+
+    Display the SQL command prompt window. For example, on Windows, click Start, then Programs (or All Programs), then Oracle Database 11g Express Edition, and then Run SQL Command Line.
+
+    Connect as the SYSTEM user:
+
+        Type: connect
+
+        Enter user-name: system
+
+        Enter password: <password-for-system>
+
+    Enter the following statement to unlock the HR account:
+
+    SQL> ALTER USER hr ACCOUNT UNLOCK;
+
+    Enter a statement in the following form to specify the password that you want for the HR user:
+
+    SQL> ALTER USER hr IDENTIFIED BY <hr-password>;
+
+    Optionally, exit SQL*Plus (which also closes the command window):
+
+    SQL> exit
+
+3 Working with Oracle Table
+
+In this section, you work with Oracle tables using basic SQL.  The exercise focuses on hr, the sample human resources database you activated above.  Before starting the exercise, explore the HR database schema, using these helpful hints as needed.
+
+    Study the HR database schema linked here: Database Sample Schemas (look under “Schema Diagrams”).
+        List all of HR user’s tables by logging in as the hr user and running SELECT table_name FROM user_tables; .
+	    Display a detailed table schema using DESCRIBE tablename;
+
+Create a command file, assignment01_1.sql , and add SQL queries and explanations to:
+
+    List all the rows of the departments table.
+        Find the number of employees in the database (hint: use the COUNT() aggregate function for this);
+	    List the employees who:
+	            have a salary greater than 15000,
+		            were hired between January 1, 2002 and January 1, 2005,
+			            have a phone number that doesn't start with 515
+				        List the names of the employees who are in the finance department. Try to format the names as “firstname lastname” using concatenation (i.e., ||) and order them alphabetically.
+					    List the city, state and country name for all locations in the Asian region.
+					        List the locations that have no state or province specified in the database.
+						    Oracle provides a default table named dual, which you can usr to verify that OracleXE is up and running. Try to figure out the schema and the data values stored in dual.  Give examples of why one might want to user such a table.
+
+4 Creating a Database User
+
+You should create at least one database user that you will use to create database objects. A database user is a type of database object: a user is associated with a database schema, you connect to the database as a database user, and the database user is the owner of any database objects (tables and so on) that you create in the schema associated with the user.
+
+For example, to create a database user named chris. Follow these steps, using the command line:
+
+        Display the SQL command prompt window. For example, on Windows, click Start, then Programs (or All Programs), then Oracle Database 11g Express Edition, and then Run SQL Command Line.
+
+        Connect as the SYSTEM user:
+
+            Type: connect
+
+            Enter user-name: system
+
+            Enter password: <password-for-system>
+
+        Create the user. For example, enter a statement in the following form:
+
+        SQL> create user chris identified by <password-for-chris>;
+
+        Grant the user the necessary privileges. For example:
+
+        SQL> grant CREATE SESSION, ALTER SESSION, CREATE DATABASE LINK, -
+	          CREATE MATERIALIZED VIEW, CREATE PROCEDURE, CREATE PUBLIC SYNONYM, -
+		            CREATE ROLE, CREATE SEQUENCE, CREATE SYNONYM, CREATE TABLE, -
+			              CREATE TRIGGER, CREATE TYPE, CREATE VIEW, UNLIMITED TABLESPACE -
+				                to chris;
+
+        Optionally, exit SQL*Plus (which also closes the command window):
+
+        SQL> exit
+
+5 Working with Oracle Integrity Constraints
+
+You now will consider a sample command file that defines a simple movie database with some sample data.  Study the movie database code in movie.sql so that you know how command file works.  In particular, consider the purpose of the StatusValue table.
+
+Try the following, noting what happens and why.  Store your DDL/DML commands along with explanations of how/why they work in assignment01_2.sql
+
+    Try adding records to the movie relation that cause these intra-relation issues:
+            a repeated primary key value
+	            a NULL primary key value
+		            a violation of a CHECK constraint
+			            a violation of an SQL datatype constraint
+				            a negative score value
+					        Try adding records that cause these inter-relation issues:
+						        a new record with a NULL value for a foreign key value
+							        a foreign key value in a referencing (aka child) table that doesn’t match any key value in the referenced (aka parent) table
+								        a key value in a referenced table with no related records in the referencing table
+									    Try deleting/modifying records as follows:
+									            Delete a referenced record that is referenced by a referencing record.
+										            Delete a referencing record that references a referenced record.
+											            Modify the ID of a movie record that is referenced by a casting record.
+
+Note that though the text discusses it, Oracle doesn’t support ON UPDATE CASCADE. Would supporting such a feature be a good idea? See Ask Tom’s discussion of this.
+
+    The original IMDB Movie table included fields for both score and votes. Can you add a constraint the requires that all movies having a non-NULL score value must also have more than 1000 votes? If so, explain what constraint you’d specify; if not, include an explanation of why it’s not possible.
+        Database systems, including Oracle, allow DBAs to create separate constraints that are set on given tables, which allows DBAs to turn constraints off and on during database operations, e.g.:
+
+ALTER TABLE tableName
+    ADD CONSTRAINT constraintName
+
+    someConstraint;
+
+Can you imagine when, if ever, you might want to separate a constraint from the table definition it modifies? If so, describe the circumstances; if not, explain why not.
+
+Please capture all your queries,  results, and explanations to files and submit through Blackboard.  Email submission will not be accepted.
+
+
+
+
+
+
+
+Assingment 3
+
+In this assignment, we continue to work with the Centrepointe church databse.
+1.    Inner and outer joins.
+
+If possible, write SQL queries to do the following.
+
+        Get the names and mandate statements of all teams along with the ID of their “chair” member. If a chair member does not exist, include NULL for the ID.
+	        [Optional] If you’re looking for a challenge, modify the previous query to return the chair person’s full name instead of just their ID.
+
+Store your results in assignment03_1.sql
+2.    Aggregation and grouping
+
+If possible, write SQL queries to do the following.
+
+        Compute the average age of all the people in the database. Note you can use the following Oracle features in this query.
+	            MONTHS_BETWEEN(laterDate, earlierDate) computes the number of months between the earlier and later dates.
+		                SYSDATE gives the current date.
+				            TRUNC() rounds a number down to the nearest integer.
+
+This query uses an agregate function, but is it doing grouping? If so, what is the group? If not, what is it doing instead?
+
+b. Get the household ID and count of members of all households in Grand Rapids having at least 2 members. Order the results by decreasing size.
+
+c. Modify the previous query to retrieve the phone number of the household as well.
+
+Store your results in assignment03_1.sql.
+3.    Creating and Using Views
+
+Create a view that for the CPDB “birthday czar” that includes each person’s full name, age (using TRUNC(MONTHS_BETWEEN(SYSDATE, birthdate)/12) ) and birthdate (only), and then write commands that:
+
+        Retrieve the GenX people from the database (i.e., those born from 1961–1975).
+	        Update the Person base table to include a GenX birthdate for some person who had a NULL birthdate before. Now, try to re-run your query on the view from the previous question. Do the results of the view query change? Why or why not?
+		        Insert a new person using your new view. If this doesn’t work, explain the modifications you’d have to make to your view so that it does. Be sure that you understand what is required for a view to be updateable and what happens to the fields of the new record in the base table that are not included in the view.
+			        Drop your new view. Does this affect your base tables in any way?
+				        Repeat the previous exercise, but this time use a materialized view. Pay attention to what changes in the view and in the table respectively.
+
+Note that to create a (potentially updateable) materialized view, use:
+
+CREATE MATERIALIZED VIEW … [FOR UPDATE] AS
+
+    SELECT …
+
+Store your results in assignment03_2.sql.
+IST 474 SQL CSUSB, Cal state sanbernardino, California state university san bernardino
+
