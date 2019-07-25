@@ -1,2 +1,2 @@
-# IST-474
-CSUSB Advanced Database SQL Files
+# IST-474 Oracle SQL
+CSUSB Advanced Database Oracle SQL Assignments and projects. 
